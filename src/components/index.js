@@ -8,7 +8,9 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import Associative from './Associative';
+import Social from './Social';
 import CanvasLoader from "./Loader";
+import Others from './Others';
 
 
 
@@ -22,6 +24,8 @@ export {
   Feedbacks,
   Contact,
   Associative,
+  Social,
+  Others,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

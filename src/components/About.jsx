@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-I’m Wael, a software engineering student at the National Engineering School of Tunis. I’m passionate about web development, full-stack engineering, big data, and AI. I love exploring new technologies, working on projects, and taking part in events to apply my skills. Always eager to learn and grow, I’m driven by the challenge of solving real-world problems with innovative solutions
+I’m Wael, a software engineering student at the National Engineering School of Tunis. I have a deep passion for the AI field,  Natural Language Processing (NLP), Large Language Models (LLM), and Data Science. I’m fascinated by how technologies like DeepSeek and ChatGPT work and am eager to study and understand their underlying mechanisms. I love exploring these cutting-edge fields, working on related projects, and applying my skills to tackle complex challenges in AI. Always curious and driven by learning, I strive to contribute to the evolving world of artificial intelligence.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

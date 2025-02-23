@@ -41,6 +41,14 @@ import {
   dlint,
   mlsup,
   mlintro,
+  ccna,
+
+  cp,
+  golden,
+  vmate,
+  clo,
+  ps,
+  pr,
 
 } from "../assets";
 
@@ -55,15 +63,24 @@ export const navLinks = [
   },
   {
     id: "work",
-    title: "projects",
+    title: "Projects",
+  },
+
+  {
+    id: "associative",
+    title: "Certifications",
+  },
+  {
+    id: "social",
+    title: "Social",
+  },
+  {
+    id: "others",
+    title: "Other Skills",
   },
   {
     id: "contact",
     title: "Contact",
-  },
-  {
-    id: "associative",
-    title: "Certifications",
   },
 ];
 
@@ -222,30 +239,7 @@ const experiences = [
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  ""
 ];
 
 const projects = [
@@ -360,11 +354,11 @@ const projects = [
 
 
 
-const social = [
+const works = [
   {
     name: "Understanding Machine Learning",
     description:
-"DataCamp course achievement ",
+"DataCamp",
     tags: [
       {
         name: "Machine Learning",
@@ -377,7 +371,7 @@ const social = [
 
   {
     name: "Supervised Learning with scikit-learn",
-    description:"DataCamp course achievement"   ,
+    description:"DataCamp"   ,
      tags: [
       {
         name: "Machine Learning",
@@ -395,7 +389,7 @@ const social = [
   },
   {
     name: " Ibtroduction to Deep Learning with PyTorch",
-    description:"DataCamp course achievement"   ,
+    description:"DataCamp"   ,
      tags: [
       {
         name: "Deep Learning",
@@ -413,7 +407,7 @@ const social = [
   },
   {
     name: "Intermediate Deep Learning with PyTorch",
-    description:"DataCamp course achievement"   ,
+    description:"DataCamp "   ,
      tags: [
       {
         name: "Deep Learning",
@@ -431,7 +425,7 @@ const social = [
   },
   {
     name: "Understanding Artificial Intelligence",
-    description:"DataCamp course achievement"   ,
+    description:"DataCamp"   ,
      tags: [
       {
         name: "AI",
@@ -456,6 +450,24 @@ const social = [
 
 
     ],
+    image: ccna ,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Generative AI concepts",
+    description:"DataCamp"   ,
+     tags: [
+      {
+        name: "Genai",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "GANs",
+        color: "green-text-gradient",
+      },
+
+
+    ],
     image: genai ,
     source_code_link: "https://github.com/",
   },
@@ -463,4 +475,74 @@ const social = [
   ];
   
 
-export { services, technologies, experiences, testimonials, projects , social };
+  const social = [
+    {
+      name: "Competitive Programming Competition ",
+      description:
+  "I took part in League of Coders, a competitive programming competition at ENIT, organized by my club G2FOSS. It was a really good experience , challenging but fun. I got to test my problem-solving skills under pressure and compete with other talented coders. It was a great way to learn, collaborate, and push my limits. Definitely an experience worth having!",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: cp,
+      source_code_link: "https://github.com/",
+    },
+  
+    {
+      name: " G2foss Golden Member Certification ",
+      description:"The G2FOSS Golden Member Certification recognizes my active contribution and dedication to the G2FOSS  community at ENIT. This certification highlights my involvement in organizing events, promoting open-source initiatives, and participating in competitive programming and development activities within the club. "   ,
+       tags: [
+        {
+          name: "Social",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "G2foss",
+          color: "green-text-gradient",
+        },
+  
+  
+      ],
+      image:  golden ,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "VMATE Wins 1st Place in Injaz Competition: Advancing to National Stage!",
+      description:"Our team, VMATE, won 1st place in the Injaz competition at ENIT! We advanced to the national stage with our Smart Band, which was designed to assist Alzheimer’s patients using GPS-guided voice prompts. During that time, we sought an advisor and sponsor to help bring our vision to life. It was an amazing experience, and I’m proud of what we achieved together!"   ,
+       tags: [
+        {
+          name: "INJAZ",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "AlzheimersAwareness",
+          color: "green-text-gradient",
+        },
+  
+      ],
+      image:  vmate ,
+      source_code_link: "https://github.com/",
+    }
+
+  
+    ];
+
+
+  const skills = [
+      {
+        name: "Photoshop",
+        icon: ps,
+      },
+      {
+        name: "PremierePro",
+        icon: pr,
+      },
+      {
+        name: "CLO3D",
+        icon: clo,
+      },
+]
+
+export { services, technologies, experiences, testimonials, projects , social  , works , skills};

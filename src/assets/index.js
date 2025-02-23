@@ -48,6 +48,14 @@ import mlintro from "./Social/mlintro.png"
 import genai from "./Social/genai.png"
 import ccna from "./Social/ccna.png"
 
+import cp from "./sociallife/cp.jpg"
+import golden from "./sociallife/golden.jpg"
+import vmate from "./sociallife/vmate.jpg"
+
+import ps from "./others/ps.png"
+import pr from "./others/pr.png"
+import clo from "./others/clo.jpg"
+
 
 
 
@@ -100,6 +108,14 @@ export {
  mlintro,
  dlintro,
  dlint,
- ccna
+ ccna,
+
+ cp,
+ golden,
+ vmate,
+
+ clo,
+ ps,
+ pr
 
 };

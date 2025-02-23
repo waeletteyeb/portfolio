@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
-import { FaLinkedin, FaGithub } from "react-icons/fa"; // Import icons
+import { FaLinkedin, FaGithub ,  } from "react-icons/fa";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -141,6 +141,8 @@ const Contact = () => {
           >
             <FaGithub />
           </a>
+          
+          
         </div>
       </motion.div>
 
