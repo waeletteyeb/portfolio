@@ -19,13 +19,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Wael</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I am Machine learning | AI engineer <br className='sm:block hidden' />
+          Aspiring Machine Learning and AI Engineer | Software Engineering Student at ENIT <br className='sm:block hidden' />
             
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

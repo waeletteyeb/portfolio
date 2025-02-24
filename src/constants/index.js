@@ -104,47 +104,7 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Linux",
-    icon: linux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
+   {
     name: "python",
     icon: python,
   },
@@ -153,16 +113,8 @@ const technologies = [
     icon: pytorch,
   },
   {
-    name: "flutter",
-    icon: flutter,
-  },
-  {
     name: "spring",
     icon: spring,
-  },
-  {
-    name: "c",
-    icon: c,
   },
   {
     name: "csharp",
@@ -175,12 +127,29 @@ const technologies = [
   {
     name: "java",
     icon: java,
-  },  {
-    name: "docker",
-    icon: docker,
   }, 
 
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "typeScript",
+    icon: typescript,
+  },
+  {
+    name: "react JS",
+    icon: reactjs,
+  },
+  {
+    name: "linux",
+    icon: linux,
+  },
 
+  {
+    name: "node",
+    icon: nodejs,
+  },
 ];
 
 const experiences = [

@@ -54,13 +54,14 @@ const ComputersCanvas = () => {
   }, []);
 
   return (
-    <Canvas
-      frameloop='demand'
-      shadows
-      dpr={[1, 2]}
-      camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true }}
-    >
+<Canvas
+  style={{ height: "100vh", width: "100%" }}
+  frameloop='demand'
+  shadows
+  dpr={[1, 2]}
+  camera={{ position: [2, 2, 5], fov: 50 }}
+  gl={{ preserveDrawingBuffer: true }}
+>
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           enableZoom={false}

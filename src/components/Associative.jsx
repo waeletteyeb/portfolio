@@ -57,7 +57,7 @@ const Associative = () => {
     <>
       <motion.div variants={textVariant()}>
         
-        <h2 className={`${styles.sectionHeadText}`}>Ceritifications</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Certifications</h2>
       </motion.div>
 
       <div className='w-full flex'>
