@@ -12,6 +12,7 @@ import opencv1 from "./opencv1.png";
 import medal from "./medal.png";
 import cinema from "./cinema.png";
 import robot from "./robot.png";
+import potato from "./potato.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -75,6 +76,7 @@ export {
   opencv1,
   medal,
   robot,
+  potato,
   css,
   docker,
   html,

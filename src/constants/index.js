@@ -8,6 +8,7 @@ import {
   opencv1,
   medal,
   robot,
+  potato,
 
   javascript,
   typescript,
@@ -230,7 +231,7 @@ const projects = [
       },
     ],
     image: moteur,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/waeletteyeb/search-engine",
   },
 
   {
@@ -255,7 +256,7 @@ const projects = [
       },
     ],
     image: cinema ,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://lnkd.in/d8zCQiQQ",
   },
   {
     name: "Olympics medal prediction",
@@ -274,7 +275,7 @@ const projects = [
       },
     ],
     image: medal,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/waeletteyeb/ML_predictions",
   },
   {
     name: "Hand Gesture-Based Zoom with OpenCV",
@@ -316,7 +317,26 @@ const projects = [
     ],
     image: robot,
     source_code_link: "https://github.com/waeletteyeb/TP4-ROBOT-SHOP",
-  }
+  },
+  {
+    name: "Potato Disease Classification Using CNN -",
+    description:"Developed a deep learning model based on Convolutional Neural Networks (CNN) to classify potato leaf diseases from images. The system detects and distinguishes between healthy and infected leaves, enabling fast and accurate diagnosis to support agricultural decision-making.",    tags: [
+      {
+        name: "CNN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Deeplearning",
+        color: "green-text-gradient",
+      },
+      {
+        name: "classification",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: potato,
+    source_code_link: "https://github.com/",
+  },
   
 ];
 
